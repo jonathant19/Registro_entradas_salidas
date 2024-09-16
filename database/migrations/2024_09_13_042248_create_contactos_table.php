@@ -18,9 +18,7 @@ return new class extends Migration
             $table->string('Telefono', 15)->nullable();
             $table->unsignedBigInteger('Id_datos_personales')->nullable(); 
         
-            //esta tabla cual es datos_personales - nop veo la migracion hasta hace poco estaba creada yo la estaba trabajando
-            // es la tabla donde se guardan los contactos del empleado correo, telefono, dir etc 
-           // $table->foreign('Id_datos_personales')->references('id')->on('datos_personales');
+            
         });
     }
 
